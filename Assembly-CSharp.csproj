@@ -38,10 +38,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
-     <Compile Include="Assets\Scripts\RayCastWeapon.cs" />
+     <Compile Include="Assets\Scripts\EnemyDeathEffect.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\ImpactEffect.cs" />
      <Compile Include="Assets\Scripts\PrefabWeapon.cs" />
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
